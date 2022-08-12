@@ -1,0 +1,14 @@
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.deps.json
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.runtimeconfig.json
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.pdb
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.csproj.AssemblyReference.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.AssemblyInfoInputs.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.AssemblyInfo.cs
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.csproj.CoreCompileInputs.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\refint\ChessTournament.DL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.pdb
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.genruntimeconfig.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ref\ChessTournament.DL.dll

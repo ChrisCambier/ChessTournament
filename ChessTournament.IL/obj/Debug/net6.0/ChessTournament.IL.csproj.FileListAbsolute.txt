@@ -1,0 +1,17 @@
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.IL.deps.json
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.IL.runtimeconfig.json
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.IL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.IL.pdb
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.DL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.DL.pdb
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.csproj.AssemblyReference.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.AssemblyInfoInputs.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.AssemblyInfo.cs
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.csproj.CoreCompileInputs.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.csproj.CopyComplete
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\refint\ChessTournament.IL.dll
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.pdb
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.genruntimeconfig.cache
+C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ref\ChessTournament.IL.dll
