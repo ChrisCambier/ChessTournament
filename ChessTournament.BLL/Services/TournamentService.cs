@@ -27,7 +27,7 @@ namespace ChessTournament.BLL.Services
         {
             return _tournamentRepo.GetById(id);
         }
-        public int Insert(TournamentCreateForm tcf) // WARNING : Besoin d'un ID.  A FAIRE
+        public int Insert(TournamentCreateForm tcf)
         {
             Tournament tournament = tcf.CreateToDL();
             tournament.Status = Status.WaitingForPlayers;
