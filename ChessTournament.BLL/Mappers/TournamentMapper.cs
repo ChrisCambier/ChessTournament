@@ -25,23 +25,23 @@ namespace ChessTournament.BLL.Mappers
                 InscriptionEndDate = tcf.InscriptionEndDate
             };
         }
-        public static Tournament UpdateToDL(this TournamentUpdateForm tuf)
-        {
-            return new Tournament
-            {
-                Name = tuf.Name,
-                Localisation = tuf.Localisation,
-                NbPlayerMax = tuf.NbPlayerMax,
-                NbPlayerMin = tuf.NbPlayerMin,
-                ELOMax = tuf.ELOMax,
-                ELOMin = tuf.ELOMin,
-                Category = tuf.Category,
-                Status = tuf.Status,
-                Round = tuf.Round,
-                IsWomenOnly = tuf.IsWomenOnly,
-                InscriptionEndDate = tuf.InscriptionEndDate
-            };
-        }
+        //public static Tournament UpdateToDL(this TournamentUpdateForm tuf)
+        //{
+        //    return new Tournament
+        //    {
+        //        Name = tuf.Name,
+        //        Localisation = tuf.Localisation,
+        //        NbPlayerMax = (int)tuf.NbPlayerMax,
+        //        NbPlayerMin = (int)tuf.NbPlayerMin,
+        //        ELOMax = tuf.ELOMax,
+        //        ELOMin = tuf.ELOMin,
+        //        Category = (Category)tuf.Category,
+        //        Status = tuf.Status,
+        //        Round = tuf.Round,
+        //        IsWomenOnly = tuf.IsWomenOnly,
+        //        InscriptionEndDate = tuf.InscriptionEndDate
+        //    };
+        //}
 
         public static TournamentCreateForm CreateToBLL(this Tournament t)
         {

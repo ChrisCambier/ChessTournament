@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 
 namespace ChessTournament.BLL.Services
 {
@@ -22,6 +23,10 @@ namespace ChessTournament.BLL.Services
         public IEnumerable<Tournament> GetAll()
         {
             return _tournamentRepo.GetAll();
+        }
+        public IEnumerable<Tournament> TenLastNotFinishedTournamentByUpdateDate()
+        {
+            return _tournamentRepo.TenLastNotFinishedTournamentByUpdateDate();
         }
         public Tournament GetById(int id)
         {
@@ -40,12 +45,68 @@ namespace ChessTournament.BLL.Services
             return _tournamentRepo.Insert(tcf.CreateToDL());
         }
 
-        public bool Update(TournamentUpdateForm tuf)
+        public void Update([FromBody]TournamentUpdateForm tuf)
         {
-            return _tournamentRepo.Update(tuf.UpdateToDL());
-        }
+            //TO DO Update permise uniquement si aucun joueur inscrit.
+            Tournament t = _tournamentRepo.GetById(tuf.Id);
+
+            if(tuf.Name != null)
+            {
+                t.Name = tuf.Name;
+            }
+
+            if (tuf.Localisation != null)
+            {
+                t.Localisation = tuf.Localisation;
+            }
+            if (tuf.NbPlayerMax != null)
+            {
+                t.NbPlayerMax = (int)tuf.NbPlayerMax;
+            }
+            if (tuf.NbPlayerMin != null)
+            {
+                t.NbPlayerMin = (int)tuf.NbPlayerMin;
+            }
+            if (tuf.ELOMax != null)
+            {
+                t.ELOMax = tuf.ELOMax;
+            }
+            if (tuf.ELOMin != null)
+            {
+                t.ELOMin = tuf.ELOMin;
+            }
+            if (tuf.Category != null)
+            {
+                t.Category = (Category)tuf.Category;
+            }
+            if (tuf.Status != null)
+            {
+                t.Status = (Status)tuf.Status;
+            }
+            if (tuf.Round != null)
+            {
+                t.Round = (int)tuf.Round;
+            }
+            if (tuf.IsWomenOnly != null)
+            {
+                t.IsWomenOnly = (bool)tuf.IsWomenOnly;
+            }
+            if (tuf.InscriptionEndDate != null)
+            {
+                t.InscriptionEndDate = (DateTime)tuf.InscriptionEndDate;
+            }
+            
+
+            t.TournamentUpdateDate = DateTime.Now;
+            _tournamentRepo.Update(t);
+            }
         public bool Delete(int id)
         {
+            Tournament t = new Tournament();
+            if (t.Status == Status.Started)
+            {
+                throw new InvalidOperationException("Tournament on Going. You can't delete this tournament.");
+            }
             return _tournamentRepo.Delete(id);
         }
     }

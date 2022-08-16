@@ -8,6 +8,6 @@ namespace ChessTournament.DL.Interfaces
 {
     public interface ITournamentRepository : IRepository<int, Tournament>
     {
-
+        public IEnumerable<Tournament> TenLastNotFinishedTournamentByUpdateDate();
     }
 }

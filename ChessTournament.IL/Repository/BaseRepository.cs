@@ -10,18 +10,18 @@ namespace ChessTournament.IL.Repository
 {
     public class BaseRepository<T, TEntity> : IRepository<T, TEntity> where TEntity : class, IEntity<T>
     {
-        private readonly TournamentDbContext _dbContext;
+        protected readonly TournamentDbContext _dbContext;
         public BaseRepository(TournamentDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return _dbContext.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById(T id)
+        public virtual TEntity GetById(T id)
         {
             var found = _dbContext.Set<TEntity>().FirstOrDefault(e => e.Id.Equals(id));
             if (found == null)
@@ -31,20 +31,20 @@ namespace ChessTournament.IL.Repository
             return found;
         }
 
-        public T Insert(TEntity entity)
+        public virtual T Insert(TEntity entity)
         {
             _dbContext.Add(entity);
             _dbContext.SaveChanges();
             return entity.Id;
         }
 
-        public bool Update(TEntity entity)
+        public virtual bool Update(TEntity entity)
         {
             _dbContext.Update(entity);
             return _dbContext.SaveChanges() > 0;
         }
 
-        public bool Delete(T id)
+        public virtual bool Delete(T id)
         {
             var found = GetById(id);
             _dbContext.Remove(found);

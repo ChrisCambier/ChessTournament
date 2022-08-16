@@ -25,6 +25,14 @@ namespace ChessTournament.API.Controllers
             return Ok(tournaments);            
         }
 
+        [HttpGet("/TenLastUpdatedTournaments")]
+        public IActionResult TenLastNotFinishedTournamentByUpdateDate()
+        {
+            IEnumerable<Tournament> tournaments = new List<Tournament>();
+            tournaments = _tournamentService.TenLastNotFinishedTournamentByUpdateDate();
+            return Ok(tournaments);
+        }
+
         [HttpGet("/id")]
         public IActionResult GetById(int id)
         {
@@ -41,7 +49,15 @@ namespace ChessTournament.API.Controllers
         [HttpPatch]
         public IActionResult Update(TournamentUpdateForm tuf)
         {
-            return Ok(_tournamentService.Update(tuf));
+            try
+            {
+                _tournamentService.Update(tuf);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete]

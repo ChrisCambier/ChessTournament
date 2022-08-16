@@ -11,9 +11,10 @@ namespace ChessTournament.BLL.Interfaces
     public interface ITournamentService
     {
         public IEnumerable<Tournament> GetAll();
+        public IEnumerable<Tournament> TenLastNotFinishedTournamentByUpdateDate();
         public Tournament GetById(int id);
         public int Insert(TournamentCreateForm tcf);
-        public bool Update(TournamentUpdateForm tcf);
+        public void Update(TournamentUpdateForm tcf);
         public bool Delete(int id);
 
     }

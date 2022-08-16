@@ -12,3 +12,17 @@ C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.pdb
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.genruntimeconfig.cache
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ref\ChessTournament.DL.dll
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.deps.json
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.runtimeconfig.json
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.dll
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\bin\Debug\net6.0\ChessTournament.DL.pdb
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.csproj.AssemblyReference.cache
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.AssemblyInfoInputs.cache
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.AssemblyInfo.cs
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.csproj.CoreCompileInputs.cache
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.dll
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\refint\ChessTournament.DL.dll
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.pdb
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ChessTournament.DL.genruntimeconfig.cache
+D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.DL\obj\Debug\net6.0\ref\ChessTournament.DL.dll
