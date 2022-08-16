@@ -4,12 +4,7 @@ using ChessTournament.BLL.Mappers;
 using ChessTournament.DL;
 using ChessTournament.DL.Enums;
 using ChessTournament.DL.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ChessTournament.BLL.Services
 {

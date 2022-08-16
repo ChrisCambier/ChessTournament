@@ -1,5 +1,6 @@
 ﻿using ChessTournament.DL.Interfaces;
 using ChessTournament.IL.Contexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,11 @@ namespace ChessTournament.IL.Repository
     public class BaseRepository<T, TEntity> : IRepository<T, TEntity> where TEntity : class, IEntity<T>
     {
         protected readonly TournamentDbContext _dbContext;
+        protected DbSet<TEntity> _entities;
         public BaseRepository(TournamentDbContext dbContext)
         {
             _dbContext = dbContext;
+            _entities = _dbContext.Set<TEntity>();
         }
 
         public virtual IEnumerable<TEntity> GetAll()
@@ -23,7 +26,7 @@ namespace ChessTournament.IL.Repository
 
         public virtual TEntity GetById(T id)
         {
-            var found = _dbContext.Set<TEntity>().FirstOrDefault(e => e.Id.Equals(id));
+            var found = _dbContext.Set<TEntity>().Find(id);
             if (found == null)
             {
                 throw new Exception("Not Found ! :(");

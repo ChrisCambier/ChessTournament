@@ -18,9 +18,9 @@ namespace ChessTournament.IL.Repository
 
         public IEnumerable<Tournament> TenLastNotFinishedTournamentByUpdateDate()
         {
-            return _dbContext.Set<Tournament>().Where(t => t.Status != DL.Enums.Status.Closed)
-                                               .OrderBy(t => t.TournamentUpdateDate)
-                                               .Take(10);
+            return _entities.Where(t => t.Status != DL.Enums.Status.Closed)
+                            .OrderBy(t => t.TournamentUpdateDate)
+                            .Take(10);
         }
     }
 }

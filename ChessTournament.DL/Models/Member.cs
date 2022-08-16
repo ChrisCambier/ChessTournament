@@ -11,6 +11,7 @@ namespace ChessTournament.DL.Models
     public class Member : IEntity<int>
     {
         public int Id { get; set; }
+        public Guid Salt { get; set; }
         public string Pseudo { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }

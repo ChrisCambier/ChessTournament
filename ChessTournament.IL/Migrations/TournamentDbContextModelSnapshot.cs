@@ -85,6 +85,9 @@ namespace ChessTournament.IL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<Guid>("Salt")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<bool>("isAdmin")
                         .HasColumnType("bit");
 

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTournament.API", "Ches
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTournament.BLL", "ChessTournament.BLL\ChessTournament.BLL.csproj", "{7F785433-46B8-4187-8A51-0EDBC119E5A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTournament.DAL", "ChessTournament.DAL\ChessTournament.DAL.csproj", "{506A0A5F-786E-4820-9727-CC701CD7DDBE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTournament.DL", "ChessTournament.DL\ChessTournament.DL.csproj", "{CAB532D7-B873-417A-BA1A-779B4BB7B95F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTournament.IL", "ChessTournament.IL\ChessTournament.IL.csproj", "{CD6A8DA8-952C-4553-BE1A-6865AA5AB619}"
@@ -27,10 +25,6 @@ Global
 		{7F785433-46B8-4187-8A51-0EDBC119E5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F785433-46B8-4187-8A51-0EDBC119E5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F785433-46B8-4187-8A51-0EDBC119E5A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{506A0A5F-786E-4820-9727-CC701CD7DDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{506A0A5F-786E-4820-9727-CC701CD7DDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{506A0A5F-786E-4820-9727-CC701CD7DDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{506A0A5F-786E-4820-9727-CC701CD7DDBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAB532D7-B873-417A-BA1A-779B4BB7B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAB532D7-B873-417A-BA1A-779B4BB7B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB532D7-B873-417A-BA1A-779B4BB7B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qH6nelg2EQb9axLm9Iv1yuR+Yjs45oeoiW/U/RGPkFXnSFapcM3rtCdePzcHWWF652h2gFCt/om+56dsXR//6w==",
+  "dgSpecHash": "kGcWnPKqZJFe8/2pqb49FfxOP9f0L+PE4CPUqvpAkGn7vDnrlHCM6tFESdcDWOoS03PEvQBLnzD7RTl8EVs+Hg==",
   "success": true,
   "projectFilePath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CCamb\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\CCamb\\.nuget\\packages\\isopoh.cryptography.argon2\\1.1.12\\isopoh.cryptography.argon2.1.1.12.nupkg.sha512",
+    "C:\\Users\\CCamb\\.nuget\\packages\\isopoh.cryptography.blake2b\\1.1.12\\isopoh.cryptography.blake2b.1.1.12.nupkg.sha512",
+    "C:\\Users\\CCamb\\.nuget\\packages\\isopoh.cryptography.securearray\\1.1.12\\isopoh.cryptography.securearray.1.1.12.nupkg.sha512",
     "C:\\Users\\CCamb\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\CCamb\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\CCamb\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
