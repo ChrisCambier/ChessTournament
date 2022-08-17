@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj": {}
+    "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj": {}
   },
   "projects": {
-    "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj": {
+    "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj",
+        "projectUniqueName": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj",
         "projectName": "ChessTournament.API",
-        "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj",
-        "packagesPath": "C:\\Users\\CCamb\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.API\\obj\\",
+        "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.API\\ChessTournament.API.csproj",
+        "packagesPath": "C:\\Users\\studentdot0409\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CCamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\studentdot0409\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj": {
-                "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj"
+              "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj": {
+                "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj"
               },
-              "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
-                "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
+              "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
+                "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
               },
-              "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj": {
-                "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj"
+              "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj": {
+                "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj"
               }
             }
           }
@@ -53,6 +53,10 @@
             "Isopoh.Cryptography.Argon2": {
               "target": "Package",
               "version": "[1.1.12, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -72,13 +76,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -99,21 +107,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj": {
+    "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
         "projectName": "ChessTournament.BLL",
-        "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
-        "packagesPath": "C:\\Users\\CCamb\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.BLL\\obj\\",
+        "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
+        "packagesPath": "C:\\Users\\studentdot0409\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CCamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\studentdot0409\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,8 +135,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
-                "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
+              "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
+                "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
               }
             }
           }
@@ -146,6 +154,10 @@
             "Isopoh.Cryptography.Argon2": {
               "target": "Package",
               "version": "[1.1.12, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Microsoft.AspNetCore.Mvc.DataAnnotations": {
               "target": "Package",
@@ -168,6 +180,14 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -185,21 +205,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
+    "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj",
+        "projectUniqueName": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj",
         "projectName": "ChessTournament.DL",
-        "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj",
-        "packagesPath": "C:\\Users\\CCamb\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\obj\\",
+        "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj",
+        "packagesPath": "C:\\Users\\studentdot0409\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CCamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\studentdot0409\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,6 +249,10 @@
               "target": "Package",
               "version": "[1.1.12, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
@@ -246,6 +270,14 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -263,21 +295,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj": {
+    "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj",
+        "projectUniqueName": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj",
         "projectName": "ChessTournament.IL",
-        "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj",
-        "packagesPath": "C:\\Users\\CCamb\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.IL\\obj\\",
+        "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\ChessTournament.IL.csproj",
+        "packagesPath": "C:\\Users\\studentdot0409\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.IL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CCamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\studentdot0409\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -291,8 +323,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
-                "projectPath": "D:\\Users\\CCamb\\source\\repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
+              "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
+                "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
               }
             }
           }
@@ -311,6 +343,10 @@
               "target": "Package",
               "version": "[1.1.12, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
@@ -328,6 +364,14 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -345,7 +389,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

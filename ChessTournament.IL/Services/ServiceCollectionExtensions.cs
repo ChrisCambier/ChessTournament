@@ -17,7 +17,7 @@ namespace ChessTournament.IL.Services
         {
             serviceCollection.AddScoped<ITournamentRepository, TournamentRepository>();
             serviceCollection.AddScoped<IRepository<int, Match>, BaseRepository<int, Match>>();
-            serviceCollection.AddScoped<IRepository<int, Member>, BaseRepository<int, Member>>();
+            serviceCollection.AddScoped<IMemberRepository, MemberRepository>();
             return serviceCollection;
         }
     }

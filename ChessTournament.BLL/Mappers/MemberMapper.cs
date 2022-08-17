@@ -10,7 +10,7 @@ namespace ChessTournament.BLL.Mappers
 {
     public static class MemberMapper
     {
-        public static Member RegisterToDL(MemberRegister mr)
+        public static Member RegisterToDL(this MemberRegister mr)
         {
             return new Member
             {

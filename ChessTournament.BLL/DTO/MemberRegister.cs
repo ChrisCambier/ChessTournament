@@ -23,10 +23,5 @@ namespace ChessTournament.BLL.DTO
         public DateTime Birthday { get; set; }
         public Gender Gender { get; set; }
         public int? ELO { get; set; }
-
-        internal Member RegisterToDL()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

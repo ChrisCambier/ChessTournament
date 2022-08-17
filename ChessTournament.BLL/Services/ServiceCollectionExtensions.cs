@@ -14,6 +14,7 @@ namespace ChessTournament.BLL.Services
         public static IServiceCollection AddBLL(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<ITournamentService, TournamentService>();
+            serviceCollection.AddScoped<IMemberService, MemberService>();
             return serviceCollection;
         }
     }

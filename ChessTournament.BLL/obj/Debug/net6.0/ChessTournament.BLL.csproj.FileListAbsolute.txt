@@ -12,12 +12,8 @@ C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ChessTournament.BLL.pdb
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ChessTournament.BLL.genruntimeconfig.cache
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ref\ChessTournament.BLL.dll
-C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.DAL.dll
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.DL.dll
-C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.IL.dll
-C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.DAL.pdb
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.DL.pdb
-C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\bin\Debug\net6.0\ChessTournament.IL.pdb
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ChessTournament.BLL.csproj.CopyComplete
 D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ChessTournament.BLL.csproj.AssemblyReference.cache
 D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.BLL\obj\Debug\net6.0\ChessTournament.BLL.GeneratedMSBuildEditorConfig.editorconfig

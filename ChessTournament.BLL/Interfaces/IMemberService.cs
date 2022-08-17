@@ -11,14 +11,7 @@ namespace ChessTournament.BLL.Interfaces
     public interface IMemberService
     {
         IEnumerable<Member> GetAll();
-        public Member GetById(int id);
-
-        public int Insert(Member member);
-
-        public bool Update(Member member);
-
-        public bool Delete(int id);
-
-        public void Register(MemberRegister mr);
+        void Register(MemberRegister mr);
+        public MemberLogin Login(string pseudo, string password);
     }
 }
