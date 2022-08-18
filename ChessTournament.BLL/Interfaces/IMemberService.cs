@@ -12,6 +12,6 @@ namespace ChessTournament.BLL.Interfaces
     {
         IEnumerable<Member> GetAll();
         void Register(RegisterForm mr);
-        public LoginForm Login(LoginForm ml);
+        public TokenDTO Login(LoginForm ml);
     }
 }

@@ -1,4 +1,6 @@
+using ChessTournament.API.Controllers;
 using ChessTournament.BLL.Services;
+using ChessTournament.IL;
 using ChessTournament.IL.Contexts;
 using ChessTournament.IL.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -48,6 +50,7 @@ builder.Services.AddDbContext<TournamentDbContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("ChessTournamentContext")));
 builder.Services.AddBLL();
 builder.Services.AddDataBase();
+builder.Services.AddSingleton<TokenManager>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

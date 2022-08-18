@@ -2,6 +2,7 @@
 using ChessTournament.BLL.Interfaces;
 using ChessTournament.BLL.Mappers;
 using ChessTournament.DL.Models;
+using ChessTournament.IL;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

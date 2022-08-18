@@ -50,7 +50,7 @@ namespace ChessTournament.BLL.Services
             return _memberRepo.GetAll();
         }
 
-        public LoginForm Login(LoginForm ml)
+        public TokenDTO Login(LoginForm ml)
         {
             // Verification si Identifiant = Pseudo ou Email existant
             if (!_memberRepo.isRegistered(m => m.Pseudo == ml.Identifiant || m.Email == ml.Identifiant))
@@ -62,10 +62,15 @@ namespace ChessTournament.BLL.Services
             m = _memberRepo.GetByIdentifiant(ml.Identifiant);
             if (Argon2.Verify(m.Password, (ml.Password + m.Salt)))
             {
-                //generer le token
+                return new TokenDTO()
+                {
+                    Id = m.Id,
+                    Pseudo = m.Pseudo,
+                    Role = m.isAdmin
+                };
             }
 
-            throw new ValidationException();
+            throw new ValidationException("Your Password is wrong.");
         }
     }
 }

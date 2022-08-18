@@ -323,6 +323,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj": {
+                "projectPath": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj"
+              },
               "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
                 "projectPath": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
               }

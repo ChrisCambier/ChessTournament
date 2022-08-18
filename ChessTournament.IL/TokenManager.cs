@@ -1,10 +1,12 @@
-﻿using ChessTournament.DL.Models;
+﻿using ChessTournament.BLL.DTO;
+using ChessTournament.DL.Models;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace ChessTournament.API.Controllers
+namespace ChessTournament.IL
 {
     public class TokenManager
     {
@@ -17,9 +19,9 @@ namespace ChessTournament.API.Controllers
             _secret = config.GetSection("TokenInfo").GetSection("secret").Value;
         }
 
-        public string GenerateToken(TokenLogin tl)
+        public string GenerateToken(TokenDTO t)
         {
-            if (m is null) throw new ArgumentNullException();
+            if (t is null) throw new ArgumentNullException();
 
             //Créer la signin key 
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secret));
@@ -28,9 +30,9 @@ namespace ChessTournament.API.Controllers
             //Création du payload / info utilisateur
             Claim[] claims = new[]
             {
-                new Claim(ClaimTypes.Surname, m.Pseudo),
-                new Claim(ClaimTypes.Sid, m.Id.ToString()),
-                new Claim(ClaimTypes.Role, m.isAdmin ? "Admin" : "User")
+                new Claim(ClaimTypes.Surname, t.Pseudo),
+                new Claim(ClaimTypes.Sid, t.Id.ToString()),
+                new Claim(ClaimTypes.Role, t.Role ? "Admin" : "User")
             };
 
             //Configuration du token

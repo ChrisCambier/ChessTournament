@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChessTournament.BLL\ChessTournament.BLL.csproj" />
     <ProjectReference Include="..\ChessTournament.DL\ChessTournament.DL.csproj" />
   </ItemGroup>
 

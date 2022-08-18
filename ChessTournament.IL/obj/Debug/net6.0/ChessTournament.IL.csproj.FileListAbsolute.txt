@@ -32,3 +32,5 @@ D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\
 D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.pdb
 D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ChessTournament.IL.genruntimeconfig.cache
 D:\Users\CCamb\source\repos\ChessTournament\ChessTournament.IL\obj\Debug\net6.0\ref\ChessTournament.IL.dll
+D:\Users\CCamb\Source\Repos\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.BLL.dll
+D:\Users\CCamb\Source\Repos\ChessTournament\ChessTournament.IL\bin\Debug\net6.0\ChessTournament.BLL.pdb

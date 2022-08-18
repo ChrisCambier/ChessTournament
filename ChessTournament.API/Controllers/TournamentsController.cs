@@ -2,6 +2,7 @@
 using ChessTournament.BLL.Interfaces;
 using ChessTournament.DL;
 using ChessTournament.DL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChessTournament.API.Controllers
@@ -40,12 +41,14 @@ namespace ChessTournament.API.Controllers
             return Ok(tournament);
         }
 
+        [Authorize("Auth")]
         [HttpPost]
         public IActionResult Insert(TournamentCreateForm tcf)
         {
             return Ok(_tournamentService.Insert(tcf));
         }
 
+        [Authorize("Auth")]
         [HttpPatch]
         public IActionResult Update(TournamentUpdateForm tuf)
         {
@@ -60,6 +63,7 @@ namespace ChessTournament.API.Controllers
             }
         }
 
+        [Authorize("Auth")]
         [HttpDelete]
         public IActionResult Delete(int id)
         {

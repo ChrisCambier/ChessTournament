@@ -542,3 +542,5 @@ C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\studentdot0409\Desktop\Cours\LaboWebApi\ChessTournament\ChessTournament.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Users\CCamb\Source\Repos\ChessTournament\ChessTournament.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\CCamb\Source\Repos\ChessTournament\ChessTournament.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
