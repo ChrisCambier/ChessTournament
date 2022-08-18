@@ -1,5 +1,6 @@
 ﻿using ChessTournament.BLL.DTO;
 using ChessTournament.BLL.Interfaces;
+using ChessTournament.BLL.Mappers;
 using ChessTournament.DL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -21,7 +22,7 @@ namespace ChessTournament.API.Controllers
         }
 
         [HttpPost("/Register")]
-        public IActionResult Register(MemberRegister mr)
+        public IActionResult Register(RegisterForm mr)
         {
             try
             {
@@ -35,17 +36,17 @@ namespace ChessTournament.API.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(MemberLogin form)
+        public IActionResult Login(LoginForm form)
         {
             if (!ModelState.IsValid) return BadRequest();
-
+            
+            TokenDTO tl = new();
+            
             try
             {
-                Member currentUser = _memberService.Login(form.Identifiant, form.Password).ToWeb();
+                tl = _memberService.Login(form);
 
-                currentUser.Token = _tokenManager.GenerateToken(currentUser);
-
-                return Ok(currentUser.Token);
+                return Ok(_tokenManager.GenerateToken(tl));
             }
             catch (Exception e)
             {

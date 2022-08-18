@@ -6007,19 +6007,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\studentdot0409\\.nuget\\packages\\": {}
+    "C:\\Users\\CCamb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
+      "projectUniqueName": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
       "projectName": "ChessTournament.BLL",
-      "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
-      "packagesPath": "C:\\Users\\studentdot0409\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.BLL\\obj\\",
+      "projectPath": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.BLL\\ChessTournament.BLL.csproj",
+      "packagesPath": "C:\\Users\\CCamb\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\studentdot0409\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CCamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6033,8 +6033,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
-              "projectPath": "C:\\Users\\studentdot0409\\Desktop\\Cours\\LaboWebApi\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
+            "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj": {
+              "projectPath": "D:\\Users\\CCamb\\Source\\Repos\\ChessTournament\\ChessTournament.DL\\ChessTournament.DL.csproj"
             }
           }
         }
@@ -6103,7 +6103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

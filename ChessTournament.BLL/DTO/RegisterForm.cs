@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ChessTournament.BLL.DTO
 {
-    public class MemberRegister
+    public class RegisterForm
     {
         [Required]
         public string Pseudo { get; set; }

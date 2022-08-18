@@ -10,7 +10,7 @@ namespace ChessTournament.BLL.Mappers
 {
     public static class MemberMapper
     {
-        public static Member RegisterToDL(this MemberRegister mr)
+        public static Member RegisterToDL(this RegisterForm mr)
         {
             return new Member
             {
@@ -18,6 +18,14 @@ namespace ChessTournament.BLL.Mappers
                 Email = mr.Email,
                 Birthday = mr.Birthday,
                 Gender = mr.Gender,
+            };
+        }
+        public static Member LoginToDL(this LoginForm ml)
+        {
+            return new Member
+            {
+                Pseudo = ml.Identifiant,
+                Email = ml.Password,
             };
         }
     }

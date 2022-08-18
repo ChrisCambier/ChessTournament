@@ -17,7 +17,7 @@ namespace ChessTournament.API.Controllers
             _secret = config.GetSection("TokenInfo").GetSection("secret").Value;
         }
 
-        public string GenerateToken(Member m)
+        public string GenerateToken(TokenLogin tl)
         {
             if (m is null) throw new ArgumentNullException();
 

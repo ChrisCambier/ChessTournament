@@ -23,8 +23,12 @@ namespace ChessTournament.BLL.Services
             _memberRepo = memberRepo;
         }
 
-        public void Register(MemberRegister mr)
+        public void Register(RegisterForm mr)
         {
+            if (mr.Pseudo.Contains("@"))
+            {
+                throw new ValidationException("Character '@' is not authorized in the Pseudo.");
+            }
             if (_memberRepo.isRegistered(m => m.Pseudo == mr.Pseudo || m.Email == mr.Email))
             {
                 throw new ValidationException("You are already registered on this website.");
@@ -46,25 +50,22 @@ namespace ChessTournament.BLL.Services
             return _memberRepo.GetAll();
         }
 
-        public MemberLogin Login(string pseudo, string password)
+        public LoginForm Login(LoginForm ml)
         {
-            // Récuperation le Hash lier au compte
-            string hash = _memberRepo.GetHashByPseudo(pseudo);
-
-            if (string.IsNullOrWhiteSpace(hash))
+            // Verification si Identifiant = Pseudo ou Email existant
+            if (!_memberRepo.isRegistered(m => m.Pseudo == ml.Identifiant || m.Email == ml.Identifiant))
             {
-                throw new Exception("User inexistant");
+                throw new ValidationException("Your Identifiant is wrong.");
+            }
+            // Verification si Password = Password hashé
+            Member m = new();
+            m = _memberRepo.GetByIdentifiant(ml.Identifiant);
+            if (Argon2.Verify(m.Password, (ml.Password + m.Salt)))
+            {
+                //generer le token
             }
 
-            // Validation du hash avec le password
-            if (Argon2.Verify(hash, password))
-            {
-                return _memberRepo.GetByPseudo(pseudo).ToBll();
-            }
-            else
-            {
-                throw new Exception("Mot de passe incorrect");
-            }
+            throw new ValidationException();
         }
     }
 }

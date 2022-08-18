@@ -21,5 +21,15 @@ namespace ChessTournament.IL.Repository
         {
             return _entities.Any(predicate);
         }
+
+        public Member? GetByIdentifiant(string identifiant)
+        {
+            if (identifiant.Contains("@"))
+            {
+                return _entities.FirstOrDefault(m => m.Email == identifiant);
+            }
+
+            return _entities.FirstOrDefault(m => m.Pseudo == identifiant);
+        }
     }
 }
